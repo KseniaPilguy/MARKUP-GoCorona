@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KseniaPilguy/MARKUP-GoCorona/static/css/main.484aec64.css",
+    "main.js": "/KseniaPilguy/MARKUP-GoCorona/static/js/main.8f39580a.js",
+    "index.html": "/KseniaPilguy/MARKUP-GoCorona/index.html",
+    "main.484aec64.css.map": "/KseniaPilguy/MARKUP-GoCorona/static/css/main.484aec64.css.map",
+    "main.8f39580a.js.map": "/KseniaPilguy/MARKUP-GoCorona/static/js/main.8f39580a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.484aec64.css",
+    "static/js/main.8f39580a.js"
+  ]
+}
