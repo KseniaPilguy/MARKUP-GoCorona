@@ -1,0 +1,117 @@
+.healthcare_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+
+  h1 {
+    margin-bottom: 14px;
+    font-family: 'Rubik', serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    color: #000000;
+    @media screen and (max-width: 968px) {
+      font-size: 24px;
+      line-height: 35px;
+      margin-bottom: 15px;
+    }
+    span {
+      color: #EC5863;
+    }
+  }
+
+  p {
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    color: #616161;
+    @media screen and (max-width: 768px) {
+      br {
+        display: none;
+      }
+    }
+  }
+
+  .healthcare_body_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+    width: 100%;
+    @media screen and (max-width: 880px) {
+      flex-wrap: wrap;
+    }
+    .healthcare_card {
+      width: 278px;
+      background: #FFFFFF;
+      box-shadow: 0 4px 18px rgba(88, 126, 236, 0.18);
+      border-radius: 8px;
+      @media screen and (max-width: 1060px) {
+        width: 250px;
+      }
+      @media screen and (max-width: 880px) {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .healthcare_card_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 36px 17px;
+        @media screen and (max-width: 1060px) {
+          padding: 36px 10px;
+        }
+
+        h1 {
+          margin-top: 20px;
+          margin-bottom: 4px;
+          font-family: 'Rubik', serif;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 22px;
+          text-align: center;
+          letter-spacing: 1.3px;
+          color: #000000;
+        }
+
+        p {
+          font-family: 'Rubik', serif;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 17px;
+          text-align: center;
+          letter-spacing: 1.3px;
+          color: #616161;
+        }
+
+        .image {
+          height: 40px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .download_buttons_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    a{
+      &:first-of-type {
+        margin-right: 56px;
+      }
+    }
+
+  }
+}
